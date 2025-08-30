@@ -1,4 +1,4 @@
-public class Main {
+public class Arr {
     public static void main(String[] args) {
        //syntax 
        // datatupe[] variableName = new datatype[size];
