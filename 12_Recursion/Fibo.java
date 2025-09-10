@@ -1,7 +1,7 @@
 public class Fibo {
     public static void main(String[] args) {
         //write a function to print fibonacci series
-        int n=7;
+        int n=5;
         System.out.println(fibo(n));
     }
     static int fibo(int n){
