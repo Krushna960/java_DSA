@@ -6,7 +6,6 @@ public class BS {
         int target = 4 ;
         int ans = search(arr, target, 0, arr.length - 1);
         System.out.println(ans);
-
     }
 
     static int search(int[] arr, int target, int s, int e) {
