@@ -17,9 +17,9 @@ public class WrapperEx {
         //obj = new A("new object");
 
         A obj2;
-        for(int i=0;i<1000000000;i++){
-            obj2 = new A("new object");
-        }
+        // for(int i=0;i<1000000000;i++){
+        //     obj2 = new A("new object");
+        // }
     }
    static  void swap(Integer a, Integer b) {
         Integer temp = a;
