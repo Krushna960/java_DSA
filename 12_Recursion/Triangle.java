@@ -17,7 +17,7 @@ public class Triangle {
             triangle2(r-1,0);
             System.out.println();
         }
-    }
+      }
     static void triangle(int r, int c){
         if(r == 0){
             return;

@@ -1,8 +1,8 @@
 public class Nto1 {
     public static void main(String[] args) {
         // printNto1(5);
-        // print1toN(5);
-        printboth(5);
+        print1toN(5);
+        // printboth(5);
     }
     static void printNto1(int n) {
         if (n == 0) {

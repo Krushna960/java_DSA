@@ -5,7 +5,7 @@ public class SearchIn2DArray {
     public static void main(String[] args) {
         int [][] arr = {
                {1,2,3},
-               {4,5,6,7},
+               {4,5,6,17},
                {8,9} 
         };
         int target = 5;

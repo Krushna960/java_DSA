@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-public class SunSet {
+public class SubSet {
     public static void main(String[] args) {
         int[] arr = {1,2,2};
         List<List<Integer>> ans = subsetDuplicate(arr);

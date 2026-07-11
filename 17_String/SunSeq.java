@@ -3,9 +3,9 @@ import java.util.ArrayList;
 
 public class SunSeq {
     public static void main(String[] args) {
-        //subseq("", "abc");
+        subseq("", "abc");
         //System.out.println(subseqRet("", "abc"));
-        System.out.println(subseqAscii("", "ab"));
+        // System.out.println(subseqAscii("", "ab"));
     }
     static void subseq(String p, String up){
         if(up.isEmpty()){

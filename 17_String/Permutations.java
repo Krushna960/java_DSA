@@ -3,9 +3,9 @@ import java.util.ArrayList;
 
 public class Permutations {
     public static void main(String[] args) {
-        //Permutations("", "abc");
-        //System.out.println(PermutationsList("", "abc"));
-        System.out.println(PermutationsCount("", "abcd"));
+        Permutations("", "abc");
+        // System.out.println(PermutationsList("", "abc"));
+        // System.out.println(PermutationsCount("", "abcd"));
     }
     static void Permutations(String p, String up){
         if(up.isEmpty()){
