@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class main {
-    
     public static void main(String[] args) {
         // Scanner scanner = new Scanner(System.in);
         // BinaryTree binaryTree = new BinaryTree();
@@ -18,11 +17,18 @@ public class main {
         // bst.populateSorted(sortedNums);
         // bst.display();
 
-        AVL avl = new AVL();
-        for (int i = 1; i < 10; i++) {
-            avl.insert(i);
-        }
+        // AVL avl = new AVL();
+        // for (int i = 1; i < 10; i++) {
+        //     avl.insert(i);
+        // }
 
-        avl.display();
-        System.out.println("Is the AVL tree balanced? " + avl.balanced());}
+        // avl.display();
+        // System.out.println("Is the AVL tree balanced? " + avl.balanced());}
+
+        int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
+        SegmentTree tree = new SegmentTree(arr);
+        // tree.display();
+
+        System.out.println(tree.query(1, 6)); // Output: 15
+    }   
 }
