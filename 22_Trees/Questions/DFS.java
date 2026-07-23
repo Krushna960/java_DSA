@@ -1,5 +1,6 @@
 import javax.swing.tree.TreeNode;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class DFS {
     public class TreeNode {
@@ -43,6 +44,25 @@ public class DFS {
         }
     }
 
+    //dfs using stack
+    void dfsStack(Node node){
+        if(node == null){
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        stack.push(node);
+        while(!stack.isEmpty()){
+            Node removed = stack.pop();
+            System.out.print(removed.val + " ");
+            if(removed.right != null){
+                stack.push(removed.right);
+            }
+            if(removed.left != null){
+                stack.push(removed.left);
+            }
+        }
+    }
+    
     int diameter = 0;
     public int diameterOfBinaryTree(TreeNode root) {
         height(root);
