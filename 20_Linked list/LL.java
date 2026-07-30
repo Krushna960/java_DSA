@@ -494,6 +494,39 @@ public class LL {
         return head;
     }
 
+    //2. Add two numbers
+    // public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        
+    // }
+
+    //24. Swap Nodes in Pairs
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        // Dummy node helps simplify edge cases
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode prev = dummy;
+
+        while (prev.next != null && prev.next.next != null) {
+            ListNode first = prev.next;
+            ListNode second = prev.next.next;
+
+            // Swapping
+            first.next = second.next;
+            second.next = first;
+            prev.next = second;
+
+            // Move prev to next pair
+            prev = first;
+        }
+
+        return dummy.next;
+    }
+
     public static void main(String[] args) {
         LL first = new LL();
         LL second = new LL();
