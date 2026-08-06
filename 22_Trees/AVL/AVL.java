@@ -85,7 +85,7 @@ class AVL {
         Node c = p.left;
         Node t = c.right;
 
-        p.left = c;
+        p.left = t;
         c.right = p;
 
         p.height = Math.max(height(p.left), height(p.right)) + 1;

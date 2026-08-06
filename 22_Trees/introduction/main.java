@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         // Scanner scanner = new Scanner(System.in);
@@ -25,10 +24,10 @@ public class main {
         // avl.display();
         // System.out.println("Is the AVL tree balanced? " + avl.balanced());}
 
-        int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
-        SegmentTree tree = new SegmentTree(arr);
+                // int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
+                // SegmentTree tree = new SegmentTree(arr);
         // tree.display();
 
-        System.out.println(tree.query(1, 6)); // Output: 15
+        // System.out.println(tree.query(1, 6)); // Output: 15
     }   
 }
